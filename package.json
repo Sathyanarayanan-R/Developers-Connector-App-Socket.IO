@@ -1,15 +1,16 @@
 {
   "name": "socket",
   "version": "1.0.0",
-  "description": "",
+  "description": "dev-connector - app to connect developers",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "build": "react-scripts build"
+    "start": "node index",
+    "server": "nodemon index",
+    "build": "npm install"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Sathyanarayanan",
+  "license": "MIT",
   "dependencies": {
     "nodemon": "^2.0.7",
     "socket.io": "^4.0.1",
